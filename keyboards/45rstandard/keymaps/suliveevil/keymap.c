@@ -9,46 +9,46 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		KC_LCTL, KC_LGUI, KC_LALT, LT(0, KC_NO), KC_SPC, LT(1, KC_NO), LT(2, KC_NO), KC_LEFT, KC_DOWN, KC_RGHT),
 
 	LAYOUT(
-		KC_TRNS, KC_1, KC_2, KC_3, KC_4, KC_LBRC, KC_RBRC, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-		KC_TRNS, KC_5, KC_6, KC_7, KC_8, KC_SCLN, KC_QUOT, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-		KC_TRNS, KC_TRNS, KC_9, KC_0, KC_MINS, KC_EQL, KC_COMM, KC_DOT, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-		RESET, KC_TRNS, KC_TRNS, LT(3, KC_NO), KC_RSFT, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
+		_______, KC_1, KC_2, KC_3, KC_4, KC_LBRC, KC_RBRC, _______, _______, _______, _______, _______, 
+		_______, KC_5, KC_6, KC_7, KC_8, KC_SCLN, KC_QUOT, _______, _______, _______, _______, 
+		_______, _______, KC_9, KC_0, KC_MINS, KC_EQL, KC_COMM, KC_DOT, _______, _______, _______, _______, 
+		RESET, _______, _______, LT(3, KC_NO), KC_RSFT, _______, _______, _______, _______, _______),
 
 	LAYOUT(
-		KC_GRV, KC_F1, KC_F2, KC_F3, KC_F4, KC_MPLY, KC_VOLD, KC_PGUP, KC_HOME, KC_END, KC_PGDN, KC_TRNS, 
-		KC_TRNS, KC_F5, KC_F6, KC_F7, KC_F8, KC_MSTP, KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, KC_ESC, 
-		KC_TRNS, KC_TRNS, KC_F9, KC_F10, KC_F11, KC_F12, KC_MUTE, KC_PAUS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
+		KC_GRV, KC_F1, KC_F2, KC_F3, KC_F4, KC_MPLY, KC_VOLD, KC_PGUP, KC_HOME, KC_END, KC_PGDN, _______, 
+		_______, KC_F5, KC_F6, KC_F7, KC_F8, KC_MSTP, KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, KC_ESC, 
+		_______, _______, KC_F9, KC_F10, KC_F11, KC_F12, KC_MUTE, KC_PAUS, _______, _______, _______, _______, 
+		_______, _______, _______, _______, _______, _______, _______, _______, _______, _______),
 
 	LAYOUT(
-		KC_TRNS, KC_PAST, KC_P7, KC_P8, KC_P9, KC_PSLS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-		KC_PENT, KC_PPLS, KC_P4, KC_P5, KC_P6, KC_PMNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-		KC_TRNS, KC_TRNS, KC_P0, KC_P1, KC_P2, KC_P3, KC_PEQL, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
+		_______, KC_PAST, KC_P7, KC_P8, KC_P9, KC_PSLS, _______, _______, _______, _______, _______, _______, 
+		KC_PENT, KC_PPLS, KC_P4, KC_P5, KC_P6, KC_PMNS, _______, _______, _______, _______, _______, 
+		_______, _______, KC_P0, KC_P1, KC_P2, KC_P3, KC_PEQL, _______, _______, _______, _______, _______, 
+		_______, _______, _______, _______, _______, _______, _______, _______, _______, _______),
 
 	LAYOUT(
-		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-		KC_PWR, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
+		_______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, 
+		KC_PWR, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, 
+		_______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, 
+		_______, _______, _______, _______, _______, _______, _______, _______, _______, _______),
 
 	LAYOUT(
-		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_PGUP, KC_HOME, KC_END, KC_PGDN, 
-		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
+		_______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, 
+		_______, _______, _______, _______, _______, _______, _______, KC_PGUP, KC_HOME, KC_END, KC_PGDN, 
+		_______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, 
+		_______, _______, _______, _______, _______, _______, _______, _______, _______, _______),
 
 	LAYOUT(
-		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-		KC_TRNS, KC_PGUP, KC_HOME, KC_END, KC_PGDN, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
+		_______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, 
+		_______, KC_PGUP, KC_HOME, KC_END, KC_PGDN, _______, _______, _______, _______, _______, _______, 
+		_______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, 
+		_______, _______, _______, _______, _______, _______, _______, _______, _______, _______),
 
 	LAYOUT(
-		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-		KC_RALT, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS)
+		_______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, 
+		_______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, 
+		KC_RALT, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, 
+		_______, _______, _______, _______, _______, _______, _______, _______, _______, _______)
 
 };
 
